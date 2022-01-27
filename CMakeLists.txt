@@ -49,6 +49,7 @@ OrientedBoundingBox.msg
 PlaceLocation.msg
 PlannerInterfaceDescription.msg
 PlannerParams.msg
+PlanningErrorCodes.msg
 PlanningScene.msg
 PlanningSceneComponents.msg
 PlanningSceneWorld.msg
@@ -76,6 +77,7 @@ GetPositionFK.srv
 GetPositionIK.srv
 GetPlannerParams.srv
 SetPlannerParams.srv
+GetPlanningErrorDetails.srv
 UpdatePointcloudOctomap.srv
 SaveMap.srv
 LoadMap.srv

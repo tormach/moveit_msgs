@@ -1,0 +1,5 @@
+# Get additional planning error details
+
+---
+string message
+PlanningErrorCodes error_code
