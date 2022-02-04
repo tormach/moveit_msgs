@@ -4,6 +4,10 @@ RobotTrajectory trajectory
 # Velocity and acceleration scaling factor for the re-timed trajectory
 float64 velocity_scaling_factor
 float64 acceleration_scaling_factor
+# Velocity and acceleration scaling factor for individual joints
+float64[] joint_velocity_scaling_factors
+float64[] joint_acceleration_scaling_factors
+string[] joint_names
 
 # Algorithm to use for the re-timing operation
 string algorithm
