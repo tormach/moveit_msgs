@@ -56,3 +56,9 @@ float64 max_acceleration_scaling_factor
 # These fields require the following planning request adapter: default_planner_request_adapters/LimitMaxCartesianLinkSpeed
 string cartesian_speed_limited_link
 float64 max_cartesian_speed # m/s
+
+# Target move duration
+# If duration is 0.0, the path is planned as fast as possible
+# else use the target duration if slower than the minimum duration achieveable
+# with the given maximum velocity and acceleration scaling factors
+float64 duration # s
